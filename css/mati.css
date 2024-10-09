@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background-color: #206435;
+}
+header{
+    align-items: center;
+}
+
+header img{
+    margin-left: 45%;
+    text-align: center  ;
+}
+nav{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(120, 212, 149);
+}
+
+li{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    width: 33%;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+li a{
+    text-decoration: none   ;
+}
+
+video{
+    margin: 0,5%;
+    padding: 0,5%;
+}
+
+p{
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    color: white    ;
+}
+
+#titulos{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+#container{
+    display: grid;
+    background-color: rgb(120, 212, 149);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;    
+    grid-template-areas: 
+        'ft1 ft2 ft3'
+        'ft4 ft5 ft6';
+}
+
+.ft1{
+    grid-area: ft1;
+    text-align: center;
+    margin:2% ;
+    padding: 2%;
+
+}
+#container img{
+    height: 100%;    
+    margin: 1% ;
+    padding: 1%;
+}
+
+.ft2{
+    grid-area: ft2;
+    text-align: center;
+    margin:2% ;
+    padding: 2%;
+}
+
+.ft3{
+    grid-area: ft3;
+    text-align: center;
+    margin: 2% ;
+    padding: 2%;
+}
+
+.ft4{
+    grid-area: ft4;
+    text-align: center;
+    margin:2% ;
+    padding: 2%;
+}
+
+.ft5{
+    grid-area: ft5;
+    text-align: center;
+    margin:2% ;
+    padding: 2%;
+}
+
+.ft6{
+    grid-area: ft6;
+    text-align: center;
+    margin:2% ;
+    padding: 2%
+}
+
+h1{
+    text-align: center;
+    padding: 1%;
+    margin: 1%;
+    color: white;
+    
+}
+
+.clase2{
+    margin: 1%;
+    padding: 1%;
+    background-color: #206435;
+}
+
+.divfooter{
+    padding: 20%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(26, 161, 121);
+}
+
+.divfooter div{
+    display: flex;
+    flex-direction: row;
+}
+
